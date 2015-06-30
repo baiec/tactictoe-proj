@@ -3,6 +3,10 @@ h1 {
 	font-family:"Comic Sans MS";
 }
 
+h1#displayResult {
+	font-size:30px;
+}
+
 h2 {
 	font-size:25px;
 	font-family:"Comic Sans MS";
@@ -12,9 +16,21 @@ body {
 	text-align: center;
 	background-color:#0AA6C9;
 }
+
 p {
 	text-indent: 15px;
 }
+
+p#disPlayerScore {
+	font-size:35px;
+	color:#FF2615;
+}
+
+p#disCompScore {
+	font-size:35px;
+	color:#FF2615;
+}
+
 button {
 	background-color:#CF7B21;
 	color: #000000;
