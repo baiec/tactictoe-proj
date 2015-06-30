@@ -1,5 +1,6 @@
 //0 = scissors     1 = rock     2 = paper
-//CHANGE ALL THE ALERTS TO BE 1 ALERT
+var playerScore = 0;
+var compScore = 0;
 function scissors(){
 	var computerChoice = Math.floor(Math.random() * 3);
 	if (computerChoice === 0) {
@@ -12,7 +13,6 @@ function scissors(){
 		alert("The computer chose paper, and you win!");
 	}
 }
-//0 = scissors     1 = rock     2 = paper
 function paper(){
 	var computerChoice = Math.floor(Math.random() * 3);
 	if (computerChoice === 0) {
@@ -25,7 +25,6 @@ function paper(){
 		alert("The computer chose paper, and you tie!");
 	}
 }
-//0 = scissors     1 = rock     2 = paper
 function rock(){
 	var computerChoice = Math.floor(Math.random() * 3);
 	if (computerChoice === 0) {
