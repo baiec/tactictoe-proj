@@ -1,6 +1,6 @@
 h1 {
 	font-size:80px;
-	font-family:"Comic Sans MS";
+	color:#FF2615;
 }
 
 h1#displayResult {
@@ -9,12 +9,12 @@ h1#displayResult {
 
 h2 {
 	font-size:25px;
-	font-family:"Comic Sans MS";
 }
 
 body {
-	text-align: center;
+	text-align:center;
 	background-color:#0AA6C9;
+	font-family:"Comic Sans MS"
 }
 
 p {
@@ -39,6 +39,11 @@ button {
 	float: center;
 	width: 200px;
 	height: 100px;
+}
+
+button.button:hover {
+	width:220px;
+	height:120px;
 }
 
 
