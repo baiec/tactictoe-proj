@@ -1,5 +1,5 @@
 h1 {
-	font-size:100px;
+	font-size:80px;
 	font-family:"Comic Sans MS";
 }
 
@@ -24,11 +24,13 @@ p {
 p#disPlayerScore {
 	font-size:35px;
 	color:#FF2615;
+	font-weight:bold;
 }
 
 p#disCompScore {
 	font-size:35px;
 	color:#FF2615;
+	font-weight:bold;
 }
 
 button {
