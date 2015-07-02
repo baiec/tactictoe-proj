@@ -55,3 +55,8 @@ img {
 	width:80px;
 	height:80px;
 }
+
+h1#explosions {
+	position:absolute;
+	margin:0 0 0 0;
+}

@@ -1,10 +1,19 @@
 //0 = scissors     1 = rock     2 = paper
 var playerScore = 0;
 var compScore = 0;
+if(playerScore===100 || compScore===100){
+	if(playerScore===100){
+		alert("You win!");
+	}
+	else {
+		alert("oh no you lost");
+	}
+}
 function scissors(){
 	var computerChoice = Math.floor(Math.random() * 3);
 	if (computerChoice === 0) {
 		document.getElementById("displayResult").innerHTML = "The computer chose scissors, and it's a tie!";
+		
 	}
 	else if(computerChoice === 1) {
 		document.getElementById("displayResult").innerHTML = "The computer chose rock, and you lose!";
